@@ -14,7 +14,7 @@ public class Teacher {
     String getSubject() { return subject; }
      void evaluate(Student student) {
          Random rand = new Random();
-         int n = rand.nextInt(3) + 2;
+         int n = rand.nextInt(4) + 2;
          String estimation = "оценка";
          switch (n) {
              case 2 -> estimation = "неудовлетворительно";

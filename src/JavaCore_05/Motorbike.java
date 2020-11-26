@@ -20,13 +20,7 @@ public class Motorbike {
         this.model = model;
     }
 
-    public int getYear() {
-        return year;
-    }
-    public String getColor() {
-        return color;
-    }
-    public String getModel() {
-        return model;
-    }
+    public int getYear() { return year; }
+    public String getColor() { return color; }
+    public String getModel() { return model; }
 }
