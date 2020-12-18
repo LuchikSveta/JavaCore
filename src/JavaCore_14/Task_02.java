@@ -25,6 +25,7 @@ public class Task_02 {
                 }
                 people.add(person);
             }
+            s.close();
             return people;
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден!");

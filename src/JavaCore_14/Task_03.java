@@ -25,6 +25,7 @@ public class Task_03 {
                 }
                 people.add(new Person(person.split(" ")[0], Integer.parseInt(person.split(" ")[1])));
             }
+            s.close();
             return people;
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден!");
